@@ -4,7 +4,6 @@ Needs HID Joystick library from here: https://github.com/MHeironimus/ArduinoJoys
 
 SBUS library from here: https://github.com/zendes/SBUS
 BUT with some lines changed to make it work on ATMEga32u4:
-
 Lines 11 to 17 need to be changed from this:
 
                TCCR2A  = 0;
