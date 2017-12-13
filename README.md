@@ -16,6 +16,7 @@ Lines 11 to 17 need to be changed from this:
                TIMSK2 |= (1 << OCIE2A);
 
 to this:
+
                TCCR0A  = 0;
                TCCR0B  = 0;
                TCNT0   = 0;
